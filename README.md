@@ -21,5 +21,6 @@ composer require anhoder/swoft-log-handler
     'levels'    => 'notice,info,debug,trace,error,warning',
     'formatter' => bean('lineFormatter'),
     'maxFiles'  => 3,
+    'checkLogInterval' => RotatingFileHandler::INTERVAL_DAY,
 ],
 ```
