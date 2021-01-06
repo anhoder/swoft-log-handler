@@ -1,0 +1,24 @@
+{
+    "name": "anhoder/swoft_log_handler",
+    "type": "library",
+    "license": "MIT",
+    "description": "",
+    "authors": [
+        {
+            "name": "anhoder",
+            "email": "anhoder@88.com"
+        }
+    ],
+    "require": {
+        "swoft/log": "^2.0",
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anhoder\\Swoft\\Log\\": "./src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
