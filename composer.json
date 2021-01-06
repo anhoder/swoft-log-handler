@@ -2,7 +2,7 @@
     "name": "anhoder/swoft-log-handler",
     "type": "library",
     "license": "MIT",
-    "description": "",
+    "description": "Swoft的日志FileHandler，支持最大日志文件限制",
     "authors": [
         {
             "name": "anhoder",
